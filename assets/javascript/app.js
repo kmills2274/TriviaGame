@@ -104,7 +104,7 @@ $(document).ready(function(){
       
       // Creates the answer choice buttons
       $.each(questionOptions, function(index, key){
-        $('#options').append($('<button class="option btn btn-dark btn-lg">'+key+'</button>'));
+        $('#options').append($('<button class="option btn btn-light btn-lg">'+key+'</button>'));
       })
       
     },
@@ -171,7 +171,7 @@ $(document).ready(function(){
       else{
 
         // Turn button red for incorrect choice
-        $(this).addClass('btn-danger').removeClass('btn-info');
+        $(this).addClass('btn-danger').removeClass('btn-light');
         
         trivia.incorrect++;
         clearInterval(trivia.timerId);
