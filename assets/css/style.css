@@ -14,7 +14,8 @@
 }
 
 body{
-	background-image: url(../images/blackandwhitestripes.jpg);
+    background-image: url(../images/blackandwhitestripes.jpg);
+    background-size: cover;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
