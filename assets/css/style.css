@@ -1,0 +1,80 @@
+@font-face {
+    font-family: heading;
+    src: url("../images/ImpactLabel.ttf");
+}
+
+@font-face {
+    font-family: subheading;
+    src: url("../images/coco.ttf");
+}
+
+@font-face {
+    font-family: timer;
+    src: url("../images/Vonique43-2AAo.ttf");
+}
+
+body{
+	background-image: url(../images/blackandwhitestripes.jpg);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.jumbotron {
+    background-image: url(../images/405444.jpg);
+    background-size: cover;
+    border-style: dotted;
+    border-width: 15px;
+    border-color: black;
+}
+
+.heading {
+    margin-top: 50px;
+    font-family: heading;
+    color: black;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: subheading;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#remaining-time {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: timer;
+}
+
+.last-seconds{
+    color: red;
+}
+
+.option{
+  margin: 15px;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+#question {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#start.btn {
+    background-color: black;
+    color: white;
+}
+
+#results {
+    margin-top: 50px;
+    color: hotpink;
+}
